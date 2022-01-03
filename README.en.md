@@ -1,8 +1,6 @@
 # welcome`TikTokDownloader_PyWebIO`(Vibrato online analysis)
 
-![](https://views.whatilearened.today/views/github/Evil0ctal/TikTokDownloader_PyWebIO.svg)[![GitHub license](https://img.shields.io/github/license/Evil0ctal/TikTokDownloader_PyWebIO)](https://github.com/Evil0ctal/TikTokDownloader_PyWebIO/blob/main/LICENSE)[![GitHub issues](https://img.shields.io/github/issues/Evil0ctal/TikTokDownloader_PyWebIO)](https://github.com/Evil0ctal/TikTokDownloader_PyWebIO/issues)
-[![GitHub forks](https://img.shields.io/github/forks/Evil0ctal/TikTokDownloader_PyWebIO)](https://github.com/Evil0ctal/TikTokDownloader_PyWebIO/network)
-[![GitHub stars](https://img.shields.io/github/stars/Evil0ctal/TikTokDownloader_PyWebIO)](https://github.com/Evil0ctal/TikTokDownloader_PyWebIO/stargazers)
+![](https://views.whatilearened.today/views/github/Evil0ctal/TikTokDownloader_PyWebIO.svg)[![GitHub license](https://img.shields.io/github/license/Evil0ctal/TikTokDownloader_PyWebIO)](https://github.com/Evil0ctal/TikTokDownloader_PyWebIO/blob/main/LICENSE)[![GitHub issues](https://img.shields.io/github/issues/Evil0ctal/TikTokDownloader_PyWebIO)](https://github.com/Evil0ctal/TikTokDownloader_PyWebIO/issues)[![GitHub forks](https://img.shields.io/github/forks/Evil0ctal/TikTokDownloader_PyWebIO)](https://github.com/Evil0ctal/TikTokDownloader_PyWebIO/network)[![GitHub stars](https://img.shields.io/github/stars/Evil0ctal/TikTokDownloader_PyWebIO)](https://github.com/Evil0ctal/TikTokDownloader_PyWebIO/stargazers)
 
 content:[API](https://github.com/Evil0ctal/TikTokDownloader_PyWebIO#%EF%B8%8Fapi%E4%BD%BF%E7%94%A8)[screenshot](https://github.com/Evil0ctal/TikTokDownloader_PyWebIO#%E6%88%AA%E5%9B%BE)[deploy](https://github.com/Evil0ctal/TikTokDownloader_PyWebIO#%E9%83%A8%E7%BD%B2)
 
@@ -23,19 +21,19 @@ Can be used to download videos that the author prohibits downloading, and can be
 
 ## 💯Supported functions:
 
--   支持抖音视频/图集解析
+-   Support Douyin video/atlas analysis
 
 -   Support overseas TikTok video analysis (no atlas analysis)
 
 -   Support batch analysis (support Douyin/TikTok mixed analysis)
 
--   支持API调用
+-   Support API call
 
 * * *
 
 ## 🤦‍♂️Follow-up features:
 
--   [ ] Collocation[iOS Shortcut APP](https://apps.apple.com/cn/app/%E5%BF%AB%E6%8D%B7%E6%8C%87%E4%BB%A4/id915249334)Achieve in-app download (lazy, let me write it personally)
+-   [ ] 搭配[iOS Shortcut APP](https://apps.apple.com/cn/app/%E5%BF%AB%E6%8D%B7%E6%8C%87%E4%BB%A4/id915249334)Achieve in-app download (lazy, let me write it personally)
 
 * * *
 
@@ -68,7 +66,7 @@ http://localhost(服务器IP):80/
 例子：8.79 vSy:/ %壁纸 %炫酷壁纸 %图集 每一张都是精选  https://v.douyin.com/RH7Gvmr/复淛佌lian接，打开Dou音搜索，直接观kan视频！
 ```
 
--   Short URL
+-   短网址
 
 ```text
 例子：https://v.douyin.com/RHnWEng/
@@ -104,7 +102,7 @@ https://www.tiktok.com/@hoodvineunrated/video/7039805708220501294?sender_device=
 
 ## 🛰️API usage
 
-The API can convert the request parameters into the non-watermarked video/picture direct link that needs to be extracted, and it can be downloaded in-app with the IOS shortcut.
+The API can convert the request parameters into a non-watermarked video/picture direct link that needs to be extracted, and it can be downloaded in-app with the IOS shortcut.
 
 -   Parse request parameters
 
@@ -343,7 +341,7 @@ http://localhost(服务器IP):80/download_bgm?url="复制的抖音链接"
 
 > It is best to deploy this project to an overseas server, otherwise strange problems may occur
 
-For example: The project is deployed on a domestic server, but the person is in the United States. Clicking on the result page link reports an error 403. The visual inspection is related to the Douyin CDN.
+For example, the project is deployed on a domestic server, but the person is in the United States. Clicking on the result page link reports an error 403. The visual inspection is related to the Douyin CDN.
 
 > Deploy using the Pagoda Linux panel
 
@@ -359,7 +357,7 @@ For example: The project is deployed on a domestic server, but the person is in 
 
 -   Path select the path of your uploaded file
 
--   The Python version needs to be at least 3.9 or above (install it yourself in the version management on the left)
+-   Python版本需要至少3.9以上(在左侧版本管理中自行安装)
 
 -   The frame is modified to`Flask`
 
@@ -371,13 +369,13 @@ For example: The project is deployed on a domestic server, but the person is in 
 
 -   Start up at will
 
--   If the pagoda is installed`Nginx`Wait for the application to stop or stop it`TikTok_ZH.py`Modify the port at the bottom (the default port is 80)
+-   If the pagoda is installed`Nginx`Wait for the application to stop it or`TikTok_ZH.py`Modify the port at the bottom (the default port is 80)
 
 ![](https://raw.githubusercontent.com/Evil0ctal/TikTokDownloader_PyWebIO/main/Screenshots/BT_Linux_Panel_Deploy_2.png)
 
 * * *
 
-## 🎉截图
+## 🎉 Screenshot
 
 -   Main interface
 
@@ -399,7 +397,7 @@ For example: The project is deployed on a domestic server, but the person is in 
 
 * * *
 
--   API提交/返回
+-   API submission/return
 
 > Video return value
 
